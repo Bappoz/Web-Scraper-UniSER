@@ -1,0 +1,28 @@
+[project]
+name = "web-scraper-uniser"
+version = "0.1.0"
+description = "A fast researchers projects/articles/works finder for academic and more research purpose"
+authors = [
+    {name = "LUCAS ZANETTI"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.3.3,<3.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "rich (>=14.1.0,<15.0.0)",
+    "typer (>=0.19.2,<0.20.0)",
+    "fastapi (>=0.117.1,<0.118.0)",
+    "pytest (>=8.4.2,<9.0.0)",
+    "black (>=25.9.0,<26.0.0)",
+    "ruff (>=0.13.1,<0.14.0)",
+    "pymongo (>=4.15.1,<5.0.0)",
+    "uvicorn (>=0.37.0,<0.38.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
